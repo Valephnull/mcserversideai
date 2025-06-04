@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "mcserversideai",
+  "version": "1.0.0",
+  "name": "mcserversideai",
+  "description": "Minecraft serverside Fabric mod integrating Gemini API",
+  "authors": ["mcserversideai dev"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": ["com.example.mcserversideai.Mcserversideai"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}
